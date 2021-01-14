@@ -1,0 +1,34 @@
+### Linux ###
+*~
+
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+### NodeJS ###
+node_modules
+dist/
+
+# Environments
+.env
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
