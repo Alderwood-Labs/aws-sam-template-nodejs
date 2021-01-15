@@ -2,14 +2,17 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: {{cookiecutter.project_name}}
 Transform: AWS::Serverless-2016-10-31
 
+Globals:
+  Function:
+    Timeout: 5
+    Runtime: nodejs12.x
+    MemorySize: 128
+
 Resources:
-  helloFromLambdaFunction:
+  SampleFunction:
     Type: AWS::Serverless::Function
     Properties:
       Handler: src/lambda.handler
-      Runtime: nodejs12.x
-      MemorySize: 128
-      Timeout: 100
-      Description: A Lambda function that returns a static string.
+      Description: A sample Lambda function.
       Policies:
         - AWSLambdaBasicExecutionRole
