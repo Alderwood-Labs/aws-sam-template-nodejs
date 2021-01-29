@@ -2,7 +2,7 @@
 const lambda = require('../../src/lambda.js');
 
 // This includes all tests for helloFromLambdaHandler()
-describe('Test for default lambda function', function () {
+describe('sampleFunctionTest', function () {
     // This test invokes lambda.handler() and compares the result 
     it('Verifies successful response', async () => {
         // Invoke helloFromLambdaHandler()
